@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hopicart - Home</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Bootstrap Navbar -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"> HOPICART </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"> Home </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="products.html"> Products </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="reviews.html"> Reviews </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact </a>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-danger"> Cart 🛒 </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="container py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-6">
+            <div class="bg-danger rounded-4 p-4">
+              <p class="text-white fw-bold mb-2">WELCOME TO HOPICART</p>
+
+              <h1 class="display-5 fw-bold text-warning">
+                Your Favorite Snacks, All in One Place
+              </h1>
+
+              <p class="text-secondary text-white">
+                From classic Filipino favorites to sweet little treats, find
+                something for every craving.
+              </p>
+
+              <a href="products.html" class="btn btn-dark me-2"> Shop Now </a>
+
+              <a href="#about" class="btn btn-outline-light">
+                About Hopicart
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img
+              src="images/hero-snacks.jpg"
+              class="img-fluid rounded-4"
+              alt="Assorted Hopicart snacks"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Shop Hopicart -->
+      <section class="container py-5">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">Why Shop Hopicart?</h2>
+
+          <p class="text-secondary">
+            Simple, affordable, and full of Filipino favorites.
+          </p>
+        </div>
+
+        <div class="row g-4 text-center">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-3">
+              <h3 class="h5 fw-bold text-danger">Affordable Prices</h3>
+
+              <p class="text-secondary">Snacks that won't hurt your budget.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-3">
+              <h3 class="h5 fw-bold text-danger">Easy & Convenient</h3>
+
+              <p class="text-secondary">
+                Find your favorite treats in one place.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-3">
+              <h3 class="h5 fw-bold text-danger">Filipino Favorites</h3>
+
+              <p class="text-secondary">
+                Classic snacks and treats that feel like home.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-3">
+              <h3 class="h5 fw-bold text-danger">For Every Craving</h3>
+
+              <p class="text-secondary">
+                Sweet, salty, chewy, crunchy — we've got options.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bootstrap Best Seller Section -->
+      <section class="container py-5">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">Hopicart's Best Seller</h2>
+        </div>
+
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-6">
+            <img
+              src="images/special-hopia.jpg"
+              class="img-fluid rounded-4"
+              alt="Special Hopia"
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <span class="badge bg-danger mb-2"> BEST SELLER </span>
+
+            <h2 class="fw-bold">Special Hopia</h2>
+
+            <p class="text-secondary">
+              One of our must-try favorites — soft, flavorful, and perfect for
+              merienda.
+            </p>
+
+            <p class="fw-bold text-danger">₱120.00</p>
+
+            <a href="products.html" class="btn btn-danger"> Shop Now </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bootstrap Product Cards -->
+      <section class="container py-5">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">More Favorites</h2>
+
+          <p class="text-secondary">A few more snacks you might enjoy.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Ube Halaya -->
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/ube-halaya.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Ube Halaya"
+              />
+
+              <div class="card-body">
+                <h3 class="h5 card-title">Ube Halaya</h3>
+
+                <p class="card-text text-secondary">
+                  A sweet and creamy Filipino favorite.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Polvoron -->
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/polvoron.png"
+                class="card-img-top rounded-top-4"
+                alt="Polvoron"
+              />
+
+              <div class="card-body">
+                <h3 class="h5 card-title">Polvoron</h3>
+
+                <p class="card-text text-secondary">
+                  A classic soft and crumbly Filipino treat.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- XO -->
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/fres.png"
+                class="card-img-top rounded-top-4"
+                alt="Fres Candy"
+              />
+
+              <div class="card-body">
+                <h3 class="h5 card-title">Fres</h3>
+
+                <p class="card-text text-secondary">
+                  A small sweet treat for your cravings.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Piattos -->
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/rebisco.png"
+                class="card-img-top rounded-top-4"
+                alt="Piattos"
+              />
+
+              <div class="card-body">
+                <h3 class="h5 card-title">Rebisco</h3>
+
+                <p class="card-text text-secondary">
+                  Makes you feel special during your snack time.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Snack Time Section -->
+      <section class="container py-5">
+        <div class="bg-dark text-white text-center rounded-4 p-5">
+          <h2 class="fw-bold">Snack Time Starts Here</h2>
+
+          <p class="mb-0">
+            Discover Filipino favorites made for every merienda, craving, and
+            snack break.
+          </p>
+        </div>
+      </section>
+
+      <!-- Bootstrap About Section -->
+      <section id="about" class="container py-5">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-6">
+            <h2 class="fw-bold">About Hopicart</h2>
+
+            <p class="text-secondary">
+              Hopicart is a simple online snack shop created to bring different
+              Filipino favorites together in one place. From classic hopia and
+              polvoron to candies, chocolates, cookies, and savory snacks,
+              Hopicart makes it easier to find something for every merienda and
+              craving.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img
+              src="images/snacks.jpg"
+              class="img-fluid rounded-4"
+              alt="Filipino snacks"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <h2 class="h5 fw-bold">HOPICART</h2>
+
+      <p>Your favorite snacks, just a cart away.</p>
+
+      <p class="mb-0">&copy; 2026 Hopicart. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

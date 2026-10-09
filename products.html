@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hopicart - Products</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Bootstrap Navbar -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"> HOPICART </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="products.html"> Products </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reviews.html"> Reviews </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact </a>
+              </li>
+            </ul>
+            <a href="#cart" class="btn btn-danger"> Cart 🛒 </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Page Title -->
+      <section class="container py-5">
+        <div class="bg-danger rounded-4 p-4 text-center">
+          <p class="text-white fw-bold mb-2">HOPICART</p>
+          <h1 class="display-5 fw-bold text-warning">Our Products</h1>
+          <p class="text-white mb-0">
+            Pick your favorites and add them to your cart.
+          </p>
+        </div>
+      </section>
+
+      <!-- Specials -->
+      <section class="container py-4">
+        <h2 class="fw-bold mb-4">Specials</h2>
+        <div class="row g-4">
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/hopia-regular.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Hopia Regular"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Hopia Regular</h3>
+                <p class="fw-bold text-danger mt-auto">₱80.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Hopia Regular"
+                  data-price="80"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/special-hopia.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Hopia Special"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Hopia Special</h3>
+                <p class="fw-bold text-danger mt-auto">₱120.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Hopia Special"
+                  data-price="120"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/rebisco.png"
+                class="card-img-top rounded-top-4"
+                alt="Rebisco"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Rebisco</h3>
+                <p class="fw-bold text-danger mt-auto">₱60.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Rebisco"
+                  data-price="60"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/ube-halaya.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Ube Halaya"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Ube Halaya</h3>
+                <p class="fw-bold text-danger mt-auto">₱150.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Ube Halaya"
+                  data-price="150"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/fres.png"
+                class="card-img-top rounded-top-4"
+                alt="Fres"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Fres</h3>
+                <p class="fw-bold text-danger mt-auto">₱15.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Fres"
+                  data-price="15"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/polvoron.png"
+                class="card-img-top rounded-top-4"
+                alt="Polvoron"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Polvoron</h3>
+                <p class="fw-bold text-danger mt-auto">₱50.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Polvoron"
+                  data-price="50"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Candies -->
+      <section class="container py-4">
+        <h2 class="fw-bold mb-4">Candies</h2>
+        <div class="row g-4">
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/frutos.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Frutos"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Frutos</h3>
+                <p class="fw-bold text-danger mt-auto">₱10.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Frutos"
+                  data-price="10"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/xo.jpg"
+                class="card-img-top rounded-top-4"
+                alt="XO"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">XO</h3>
+                <p class="fw-bold text-danger mt-auto">₱10.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="XO"
+                  data-price="10"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/champee.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Champee"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Champi</h3>
+                <p class="fw-bold text-danger mt-auto">₱10.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Champee"
+                  data-price="10"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/max.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Max"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Maxx</h3>
+                <p class="fw-bold text-danger mt-auto">₱10.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Max"
+                  data-price="10"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Gums -->
+      <section class="container py-4">
+        <h2 class="fw-bold mb-4">Gums</h2>
+        <div class="row g-4">
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/vfresh.jpg"
+                class="card-img-top rounded-top-4"
+                alt="VFresh"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">VFresh</h3>
+                <p class="fw-bold text-danger mt-auto">₱15.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="VFresh"
+                  data-price="15"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/judge.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Judge"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Judge</h3>
+                <p class="fw-bold text-danger mt-auto">₱15.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Judge"
+                  data-price="15"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sitserya -->
+      <section class="container py-4">
+        <h2 class="fw-bold mb-4">Chips and Snacks</h2>
+        <div class="row g-4">
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/boy-bawang.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Boy Bawang"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Boy Bawang</h3>
+                <p class="fw-bold text-danger mt-auto">₱20.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Boy Bawang"
+                  data-price="20"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/piattos.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Piattos"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Piattos</h3>
+                <p class="fw-bold text-danger mt-auto">₱25.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Piattos"
+                  data-price="25"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm rounded-4">
+              <img
+                src="images/mixed-nuts.jpg"
+                class="card-img-top rounded-top-4"
+                alt="Mixed Nuts"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Ding Dong</h3>
+                <p class="fw-bold text-danger mt-auto">₱40.00</p>
+                <button
+                  class="btn btn-danger add-to-cart"
+                  data-name="Mixed Nuts"
+                  data-price="40"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Shopping Cart -->
+      <section id="cart" class="container py-5">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">Your Cart</h2>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="cart-items"></tbody>
+          </table>
+        </div>
+
+        <div class="text-end mt-4">
+          <h4>Total: <span id="total">₱0.00</span></h4>
+          <button id="clear-cart" class="btn btn-dark">Clear Cart</button>
+          <button id="place-order" class="btn btn-danger">Place Order</button>
+          <p id="cart-message" class="mt-3 fw-bold"></p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <h2 class="h5 fw-bold">HOPICART</h2>
+      <p>Your favorite snacks, just a cart away.</p>
+      <p class="mb-0">&copy; 2026 Hopicart. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Cart script -->
+    <script src="script.js"></script>
+  </body>
+</html>
